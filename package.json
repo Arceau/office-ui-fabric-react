@@ -6,6 +6,13 @@
     "type": "git",
     "url": "https://github.com/arceau/office-ui-fabric-react"
   },
+  "scripts": {
+    "postinstall": "npmx install && npmx link",
+    "test": "npmx build",
+    "start": "gulp --gulpfile packages/office-ui-fabric-react/gulpfile.js serve",
+    "gulp": "gulp --gulpfile packages/office-ui-fabric-react/gulpfile.js",
+    "change": "npmx change"
+  },
   "license": "MIT",
   "devDependencies": {
     "@microsoft/npmx": "^1.2.0"
