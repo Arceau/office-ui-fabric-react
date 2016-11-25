@@ -4,7 +4,14 @@
   "description": "Reusable React components for building experiences for Office 365.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Arceau/office-ui-fabric-react/tree/release/packages/office-ui-fabric-react"
+    "url": "https://github.com/Arceau/office-ui-fabric-react"
   },
-  "license": "MIT"
+  "scripts": {
+    "postinstall": "node copyLib.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "copy-dir": "^0.3.0",
+    "fs-extra": "^1.0.0"
+  }
 }
