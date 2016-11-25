@@ -40,10 +40,8 @@ dist.stats.json
 bower_components
 node_modules
 temp
-lib
 lib-amd
 coverage
-dist
 npm-debug.log
 npminstall-log.txt
 test-dependencies
